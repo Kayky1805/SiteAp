@@ -1,0 +1,183 @@
+/* #303030 0%,
+    #505050 25%,
+    #808080 50%,
+    #b0b0b0 75%,
+    #9e9e9e 100%
+    
+    
+    */
+
+body {
+  background: linear-gradient(
+    60deg,
+   #96f1d3 0%,
+   #78ccb0 25%,
+   #6ea9b8 50%,
+   #488392 75%,
+   #2b5d6d 100%
+  );
+  height: 71.6vh;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  color: #004D40;
+}
+
+@import "./constante.scss";
+
+p.nome {
+  @include valoresFixos();
+  margin-left: 395px;
+  font-size: 15px;
+  margin-bottom: 0%;
+}
+
+p.f {
+  @include valoresFixos();
+  margin-left: 390px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 100px;
+  line-height: 80px;
+}
+
+p.f span {
+  display: block;
+}
+
+p.ap {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0%;
+  margin-left: 645px;
+}
+.container {
+justify-content: center;
+}
+
+//botão
+.card {
+  position: relative;
+  margin-top: 180px;
+  margin-left: 782px;
+  display: flex;
+  height: 60px; //Ajusta a altura do btn
+  width: 250px; //Ajusta a largura do btn
+}
+
+.card svg {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700; //Ajusta o negrito
+  opacity: 1; //opacidade do btn
+  transition: opacity 0.25s;
+  z-index: 2;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+//@import "/style/cards.scss"; @include cardConstante();
+
+.card .social-link1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004D40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
+}
+
+.card .social-link2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004D40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
+}
+
+.card .social-link3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004D40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
+}
+
+.card .social-link4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004D40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
+}
+
+.card svg {
+  transform: scale(0.7); //tamanho do btn
+}
+
+.card .social-link1:hover {
+  background-color: #85c985;
+  animation: bounce_613 0.6s linear;
+}
+
+.card .social-link2:hover {
+  background-color: #85c985;
+  animation: bounce_613 0.6s linear;
+}
+
+.card .social-link3:hover {
+  background-color: #85c985;
+  animation: bounce_613 0.6s linear; //velocidade da animação
+}
+
+@keyframes bounce_613 {
+  20% {
+    transform: scale(
+      1
+    ); //Ajusta o tamanho do círculo quando o mouse passa pelo btn
+  }
+
+  40% {
+    transform: scale(
+      0.8
+    ); //Ajusta o quão profundo fica quando o mouse passa por cima do btn
+  }
+
+  60% {
+    transform: scale(
+      1
+    ); //Ajusta o tamanho do círculo quando o mouse passa pelo btn
+  }
+
+  80% {
+    transform: scale(
+      1
+    ); //Ajusta o rebote do0 b0tn 00q0uan0do o0 mo0u0se pssar por  ele
+  }
+}
+//Fim botão
+
