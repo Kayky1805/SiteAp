@@ -1,4 +1,4 @@
-//Gradiente do Bg
+//Gradientee do Bg
 body {
   background: linear-gradient(
     60deg,
@@ -74,22 +74,58 @@ p.ap {
   cursor: pointer;
 }
 
-@import "/style/cards.scss"; 
+//@import "/style/cards.scss"; 
 
 .card .social-link1 {
-  @include cardConstante();
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004d40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
 }
 
 .card .social-link2 {
-  @include cardConstante();
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004d40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
 }
 
 .card .social-link3 {
-  @include cardConstante();
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004d40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
 }
 
 .card .social-link4 {
-  @include cardConstante();
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: #004d40;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s; //Ajusta o fade da animação
+  border-radius: 50px; //Ajusta a borda do botão
 }
 
 .card svg {
@@ -98,7 +134,7 @@ p.ap {
 
 .card .social-link1:hover {
   background-color: #85c985;
-  animation: bounce_613 0.6s linear; //velocidade da animação
+  animation: bounce_613 0.6s linear;
 }
 
 .card .social-link2:hover {
@@ -108,8 +144,17 @@ p.ap {
 
 .card .social-link3:hover {
   background-color: #85c985;
-  animation: bounce_613 0.6s linear; 
+  animation: bounce_613 0.6s linear; //velocidade da animação
 }
+
+/* Desabilitar seleção de texto */
+p.nome, p.f, p.ap {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 
 @keyframes bounce_613 {
   20% {
@@ -133,7 +178,7 @@ p.ap {
   80% {
     transform: scale(
       1
-    ); //Ajusta o rebote do btn quando o mouse passar por  ele
+    ); //Ajusta o rebote do0 b0tn 00q0uan0do o0 mo0u0se pssar por  ele
   }
 }
 //Fim botão
