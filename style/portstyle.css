@@ -7,14 +7,14 @@
 
     */
 body {
-  background: linear-gradient(60deg, #96f1d3 0%, #78ccb0 25%, #6ea9b8 50%, #488392 75%, #2b5d6d 100%);
+  background: linear-gradient(60deg, #87d1b8 10%, #78ccb0 25%, #6ea9b8 50%, #488392 75%, #2b5d6d 100%);
   height: 71.6vh;
   margin: 0;
   font-family: "Bebas Neue", sans-serif;
 }
 
 p {
-  color: #004D40;
+  color: #004d40;
 }
 
 p.nome {
@@ -81,7 +81,7 @@ p.ap {
   align-items: center;
   justify-content: center;
   width: 25%;
-  color: #004D40;
+  color: #004d40;
   font-size: 24px;
   text-decoration: none;
   transition: 0.25s;
@@ -94,7 +94,7 @@ p.ap {
   align-items: center;
   justify-content: center;
   width: 25%;
-  color: #004D40;
+  color: #004d40;
   font-size: 24px;
   text-decoration: none;
   transition: 0.25s;
@@ -107,7 +107,7 @@ p.ap {
   align-items: center;
   justify-content: center;
   width: 25%;
-  color: #004D40;
+  color: #004d40;
   font-size: 24px;
   text-decoration: none;
   transition: 0.25s;
@@ -120,7 +120,7 @@ p.ap {
   align-items: center;
   justify-content: center;
   width: 25%;
-  color: #004D40;
+  color: #004d40;
   font-size: 24px;
   text-decoration: none;
   transition: 0.25s;
