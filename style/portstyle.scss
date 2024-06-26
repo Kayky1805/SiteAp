@@ -1,12 +1,4 @@
-/* #303030 0%,
-    #505050 25%,
-    #808080 50%,
-    #b0b0b0 75%,
-    #9e9e9e 100%
-    
-    
-    */
-
+//Gradiente do Bg
 body {
   background: linear-gradient(
     60deg,
@@ -21,6 +13,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
 }
 
+//Personalização de textos
 p {
   color: #004d40;
 }
@@ -57,7 +50,7 @@ p.ap {
   justify-content: center;
 }
 
-//botão
+// Começo do bootão
 .card {
   position: relative;
   margin-top: 180px;
@@ -81,58 +74,22 @@ p.ap {
   cursor: pointer;
 }
 
-//@import "/style/cards.scss"; @include cardConstante();
+@import "/style/cards.scss"; 
 
 .card .social-link1 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card .social-link2 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card .social-link3 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card .social-link4 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card svg {
@@ -141,7 +98,7 @@ p.ap {
 
 .card .social-link1:hover {
   background-color: #85c985;
-  animation: bounce_613 0.6s linear;
+  animation: bounce_613 0.6s linear; //velocidade da animação
 }
 
 .card .social-link2:hover {
@@ -151,7 +108,7 @@ p.ap {
 
 .card .social-link3:hover {
   background-color: #85c985;
-  animation: bounce_613 0.6s linear; //velocidade da animação
+  animation: bounce_613 0.6s linear; 
 }
 
 @keyframes bounce_613 {
@@ -176,7 +133,7 @@ p.ap {
   80% {
     transform: scale(
       1
-    ); //Ajusta o rebote do0 b0tn 00q0uan0do o0 mo0u0se pssar por  ele
+    ); //Ajusta o rebote do btn quando o mouse passar por  ele
   }
 }
 //Fim botão
