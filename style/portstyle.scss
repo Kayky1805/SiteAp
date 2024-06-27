@@ -185,9 +185,9 @@ p.ap {
 //Fim botão
 
 //Media Queries para tablet e telefone
-@media (max-width: 968px) {
+@media (max-width: 1068px) {
   body {
-    height: 100vh;
+    height: 5vh;
     margin: 0;
   }
   p.nome {
@@ -211,7 +211,7 @@ p.ap {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   body {
     height: 250vh;
     margin: 0;

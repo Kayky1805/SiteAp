@@ -163,9 +163,9 @@ p.ap {
     transform: scale(1);
   }
 }
-@media (max-width: 968px) {
+@media (max-width: 1068px) {
   body {
-    height: 100vh;
+    height: 5vh;
     margin: 0;
   }
   p.nome {
@@ -188,7 +188,7 @@ p.ap {
     height: 50px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   body {
     height: 250vh;
     margin: 0;
