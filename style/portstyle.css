@@ -140,7 +140,9 @@ p.ap {
 }
 
 /* Desabilitar seleção de texto */
-p.nome, p.f, p.ap {
+p.nome,
+p.f,
+p.ap {
   user-select: none;
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
@@ -159,5 +161,64 @@ p.nome, p.f, p.ap {
   }
   80% {
     transform: scale(1);
+  }
+}
+@media (max-width: 968px) {
+  body {
+    height: 100vh;
+    margin: 0;
+  }
+  p.nome {
+    margin-left: 245px;
+    font-size: 10px;
+  }
+  p.f {
+    margin-left: 240px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+  p.ap {
+    margin-left: 350px;
+    font-size: 12px;
+  }
+  .card {
+    margin-top: 350px;
+    margin-left: 450px;
+    width: 200px;
+    height: 50px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    height: 250vh;
+    margin: 0;
+  }
+  p.nome {
+    margin-left: 235px;
+    font-size: 20px;
+  }
+  p.f {
+    margin-left: 230px;
+    font-size: 80px;
+    line-height: 80px;
+  }
+  p.ap {
+    margin-left: 510px;
+    font-size: 10px;
+  }
+  .card {
+    margin-top: 700px;
+    margin-left: 550px;
+    width: 250px;
+    height: 40px;
+  }
+  .card svg {
+    width: 60%;
+  }
+  .card .social-link1,
+  .card .social-link2,
+  .card .social-link3,
+  .card .social-link4 {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=portstyle.css.map */
