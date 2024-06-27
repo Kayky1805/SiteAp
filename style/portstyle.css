@@ -163,7 +163,7 @@ p.ap {
     transform: scale(1);
   }
 }
-@media (max-width: 1068px) {
+@media (max-width: 968px) {
   body {
     height: 5vh;
     margin: 0;
@@ -190,22 +190,19 @@ p.ap {
 }
 @media (max-width: 680px) {
   body {
-    height: 550vh;
+    height: 150vh;
     margin: 0;
   }
   p.nome {
-    justify-content: center;
     margin-left: 235px;
     font-size: 20px;
   }
   p.f {
-    justify-content: center;
     margin-left: 230px;
     font-size: 80px;
     line-height: 80px;
   }
   p.ap {
-    justify-content: center;
     margin-left: 510px;
     font-size: 10px;
   }
