@@ -190,7 +190,7 @@ p.ap {
 }
 @media (max-width: 680px) {
   body {
-    height: 90vh;
+    height: 150vh;
     margin: 0;
   }
   p.nome {
