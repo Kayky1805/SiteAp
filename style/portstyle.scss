@@ -213,20 +213,23 @@ p.ap {
 
 @media (max-width: 680px) {
   body {
-    height: 250vh;
+    height: 550vh;
     margin: 0;
     }
   
   p.nome {
+    justify-content: center;
     margin-left: 235px;
     font-size: 20px;
   }
   p.f {
+    justify-content: center;
     margin-left: 230px;
     font-size: 80px;
     line-height: 80px;
   }
   p.ap {
+    justify-content: center;
     margin-left: 510px;
     font-size: 10px;
   }
