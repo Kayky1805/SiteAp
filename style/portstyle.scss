@@ -77,55 +77,19 @@ p.ap {
 //@import "/style/cards.scss";
 
 .card .social-link1 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card .social-link2 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card .social-link3 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card .social-link4 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  color: #004d40;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s; //Ajusta o fade da animação
-  border-radius: 50px; //Ajusta a borda do botão
+  @include cardConstante();
 }
 
 .card svg {
@@ -177,9 +141,7 @@ p.ap {
   }
 
   80% {
-    transform: scale(
-      1
-    ); //Ajusta o rebote do0 b0tn 00q0uan0do o0 mo0u0se pssar por  ele
+    transform: scale(1); //Ajusta o rebote do btn quando o mouse passar por  ele
   }
 }
 //Fim botão
@@ -190,8 +152,8 @@ p.ap {
   body {
     height: 150vh;
     margin: 0;
-    }
-  
+  }
+
   p {
     font-family: "Bebas Neue", sans-serif;
   }
