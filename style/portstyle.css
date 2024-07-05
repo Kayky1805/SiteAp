@@ -169,21 +169,21 @@ p.ap {
     margin: 0;
   }
   p.nome {
-    margin-left: 235px;
+    margin-left: 215px;
     font-size: 20px;
   }
   p.f {
-    margin-left: 230px;
+    margin-left: 210px;
     font-size: 80px;
     line-height: 80px;
   }
   p.ap {
-    margin-left: 510px;
+    margin-left: 490px;
     font-size: 10px;
   }
   .card {
     margin-top: 800px;
-    margin-left: 550px;
+    margin-left: 530px;
     width: 250px;
     height: 40px;
   }
