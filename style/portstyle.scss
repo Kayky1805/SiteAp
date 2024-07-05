@@ -188,48 +188,37 @@ p.ap {
 
 @media (max-width: 580px) {
   body {
-    height: auto; /* Ajusta automaticamente a altura do corpo */
+    height: 150vh;
     margin: 0;
-  }
+    }
   
   p.nome {
     color: red;
-    margin-left: 0; /* Remover margens absolutas */
+    margin-left: 235px;
     font-size: 20px;
-    text-align: center; /* Centralizar o texto */
   }
-  
   p.f {
-    margin-left: 0; /* Remover margens absolutas */
-    font-size: 40px; /* Ajustar o tamanho da fonte */
-    line-height: 40px; /* Ajustar o espaçamento de linha */
-    text-align: center; /* Centralizar o texto */
+    margin-left: 230px;
+    font-size: 80px;
+    line-height: 80px;
   }
-  
   p.ap {
-    margin-left: 0; /* Remover margens absolutas */
-    font-size: 14px; /* Ajustar o tamanho da fonte */
-    text-align: center; /* Centralizar o texto */
+    margin-left: 510px;
+    font-size: 10px;
   }
-  
   .card {
-    margin-top: 20px; /* Ajustar a margem superior */
-    margin-left: auto;
-    margin-right: auto; /* Centralizar horizontalmente */
-    width: 80%; /* Ajustar a largura */
-    height: auto; /* Ajustar automaticamente a altura */
-    display: flex; /* Utilizar flexbox para centralizar itens */
-    justify-content: space-around; /* Distribuir itens uniformemente */
+    margin-top: 800px;
+    margin-left: 550px;
+    width: 250px;
+    height: 40px;
   }
-  
   .card svg {
-    width: 30px; /* Ajustar a largura dos ícones */
+    width: 60%;
   }
-  
   .card .social-link1,
   .card .social-link2,
   .card .social-link3,
   .card .social-link4 {
-    font-size: 20px; /* Tamanho da fonte para os links */
+    font-size: 20px;
   }
 }
