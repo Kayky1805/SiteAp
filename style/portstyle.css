@@ -169,6 +169,7 @@ p.ap {
     margin: 0;
   }
   p.nome {
+    color: red;
     margin-left: 235px;
     font-size: 20px;
   }
