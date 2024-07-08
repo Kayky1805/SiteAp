@@ -165,7 +165,7 @@ p.ap {
 }
 @media (max-width: 480px) {
   body {
-    height: 300vh;
+    height: 50vh;
     margin: 0;
   }
   p.nome {
