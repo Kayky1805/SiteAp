@@ -170,21 +170,21 @@ p.ap {
     margin: 0;
   }
   p.nome {
-    margin-left: 205px;
+    margin-left: 190px;
     font-size: 20px;
   }
   p.f {
-    margin-left: 200px;
+    margin-left: 190px;
     font-size: 80px;
     line-height: 80px;
   }
   p.ap {
-    margin-left: 380px;
+    margin-left: 370px;
     font-size: 16px;
   }
   .card {
     margin-top: 450px;
-    margin-left: 480px;
+    margin-left: 470px;
     width: 250px;
     height: 40px;
   }
