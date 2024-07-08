@@ -163,16 +163,12 @@ p.ap {
     transform: scale(1);
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 480px) {
   body {
     height: 150vh;
     margin: 0;
   }
-  p {
-    font-family: "Bebas Neue", sans-serif;
-  }
   p.nome {
-    color: red;
     margin-left: 215px;
     font-size: 20px;
   }

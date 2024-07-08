@@ -2,7 +2,7 @@
 body {
   background: linear-gradient(
     60deg,
-    #000000 10%,
+    #87d1b8 10%,
     #78ccb0 25%,
     #6ea9b8 50%,
     #488392 75%,
@@ -74,7 +74,7 @@ p.ap {
   cursor: pointer;
 }
 
-//@import "/style/cards.scss";
+@import "./cards.scss";
 
 .card .social-link1 {
   @include cardConstante();
@@ -95,6 +95,8 @@ p.ap {
 .card svg {
   transform: scale(0.7); //tamanho do btn
 }
+
+@import "./animacao.scss";
 
 .card .social-link1:hover {
   @include animacao();
@@ -152,7 +154,6 @@ p.ap {
   }
 
   p.nome {
-    color: red;
     margin-left: 215px;
     font-size: 20px;
   }
