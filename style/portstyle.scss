@@ -147,16 +147,17 @@ p.ap {
 
 //Media Queries para tablet e telefone
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   body {
-    height: 150vh;
     margin: 0;
   }
   p.nome {
+    color: red;
     margin-left: 215px;
     font-size: 20px;
   }
   p.f {
+    color: black;
     margin-left: 210px;
     font-size: 80px;
     line-height: 80px;
@@ -169,7 +170,6 @@ p.ap {
     margin-top: 800px;
     margin-left: 530px;
     width: 250px;
-    height: 40px;
   }
   .card svg {
     width: 60%;
