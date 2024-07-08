@@ -166,7 +166,7 @@ p.ap {
 @media (max-width: 480px) {
   body {
     width: 100vh;
-    height: 200vh;
+    height: 300vh;
     margin: 0;
   }
   p.nome {
@@ -183,7 +183,7 @@ p.ap {
     font-size: 10px;
   }
   .card {
-    margin-top: 600px;
+    margin-top: 500px;
     margin-left: 530px;
     width: 250px;
     height: 40px;
