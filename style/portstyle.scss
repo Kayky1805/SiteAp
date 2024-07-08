@@ -149,6 +149,7 @@ p.ap {
 
 @media (max-width: 480px) {
   body {
+    width: 50vh;
     height: 150vh;
     margin: 0;
   }
@@ -159,14 +160,14 @@ p.ap {
   p.f {
     margin-left: 210px;
     font-size: 80px;
-    line-height: 80px;
+    line-height: 80px;  
   }
   p.ap {
     margin-left: 490px;
     font-size: 10px;
   }
   .card {
-    margin-top: 800px;
+    margin-top: 700px;
     margin-left: 530px;
     width: 250px;
     height: 40px;
