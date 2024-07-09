@@ -177,17 +177,17 @@ p.ap {
     font-size: 14px;
   }
   p.f {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 40px;
     line-height: 45px;
   }
   p.ap {
-    margin-left: 20px;
+    margin-left: 300px;
     font-size: 12px;
   }
   .card {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 400px;
+    margin-left: 300px;
     width: 100px;
     height: 40px;
   }
