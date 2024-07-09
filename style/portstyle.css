@@ -167,7 +167,7 @@ p.ap {
   body {
     margin: 0;
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -176,7 +176,7 @@ p.ap {
     font-size: 20px;
   }
   p.f {
-    margin-left: 11 5px;
+    margin-left: 115px;
     font-size: 80px;
     line-height: 80px;
   }
